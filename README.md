@@ -7,10 +7,6 @@ password= 123456789
 
 Go to 'config' folder and Open 'constants.php' file. Then make changes on following constants
 
-<?php 
-    //Start Session
-    session_start();
-
 
     //Create Constants to Store Non Repeating Values
     define('SITEURL', 'http://localhost/Projet_web_S2_3INFO-master/');
@@ -23,5 +19,3 @@ Go to 'config' folder and Open 'constants.php' file. Then make changes on follow
     $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error()); //SElecting Database
 
 
-?>
-<?php 
